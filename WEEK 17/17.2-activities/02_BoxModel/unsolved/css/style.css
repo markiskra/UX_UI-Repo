@@ -1,0 +1,35 @@
+.header {
+height: 250px;
+max-height: 500px;
+background-image: url(../images/upsBackground.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+}
+#pageTopic {
+text-align: center;
+}
+
+.colorContainer {
+display: inline-block;
+margin: 15px;
+}
+
+.swatch {
+height: 200px;
+width: 170;
+border: 1px solid black;
+}
+
+.hexCode {
+padding: 15px;
+text-align: center;
+border: 1px solid black;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+
+
+/* Typography CSS */
+
+/* UI Elements */
