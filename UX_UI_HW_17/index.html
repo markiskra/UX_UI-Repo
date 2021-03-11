@@ -23,13 +23,13 @@ body {
 }
 
 .topnav a:hover {
-  background-color: gray;
-  color: black;
+  background-color: none;
+  color: gray;
 }
 
 .topnav a.active {
-  background-color: gray;
-  color: white;
+    background: none;
+      color: gray;
 }
 </style>
 </head>
@@ -55,6 +55,60 @@ body {
     a problem solver. Multi-skilled in many aspects of design with a keen eye for detail<br> 
     and trend-based processes.</p></p>
 </div>
+
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar {
+      overflow: hidden;
+      background-color: black;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .navbar a {
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 30px 30px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    
+    .navbar a:hover {
+      background: none;
+      color: gray;
+    }
+    
+    .navbar a.active {
+      background-color: none;
+      color: gray;
+    }
+    
+    .main {
+      padding: 16px;
+      margin-bottom: 30px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="navbar">
+        <a href="#contact">Contact</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a class="active" href="#about">About</a>
+    </div>
+    
+    </body>
+    </html>
+    
+
 
 </body>
 </html>
